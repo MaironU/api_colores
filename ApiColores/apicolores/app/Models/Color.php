@@ -9,5 +9,5 @@ class Color extends Model
 {
     use HasFactory;
 
-    protected $fillable = ["id", "name", "color"];
+    protected $fillable = ["id", "name", "color", "year", "pantone_value"];
 }

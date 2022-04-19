@@ -17,6 +17,8 @@ return new class extends Migration
             $table->id();
             $table->string('name', '30');
             $table->string('color', '20');
+            $table->year('year');
+            $table->string('pantone_value', '30');
             $table->timestamps();
         });
     }
